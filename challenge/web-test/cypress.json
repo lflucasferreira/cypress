@@ -1,0 +1,19 @@
+{
+	"baseUrl": "http://automationpractice.com/index.php",
+	"watchForFileChanges": false,
+	"video": false,
+	"viewportHeight": 660,
+	"viewportWidth": 1000,
+	"reporter": "mochawesome",
+	"reporterOptions": {
+		"charts": true,
+		"html": false,
+		"json": true,
+		"reportDir": "cypress/reports",
+		"reportFilename": "report",
+		"overwrite": false,
+		"cdn": true,
+		"timestamp": "mmddyyyy_HHMMss"
+	},
+	"projectId": "yuub3m"
+}

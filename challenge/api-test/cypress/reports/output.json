@@ -1,0 +1,225 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-19T01:43:14.990Z",
+    "end": "2021-04-19T01:43:35.063Z",
+    "duration": 7059,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c74cb1ba-93a6-4b3c-8fc9-661100e218a9",
+      "title": "",
+      "fullFile": "cypress/integration/brand/create_brand.spec.js",
+      "file": "cypress/integration/brand/create_brand.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a8828ffd-6c8c-4a00-a02c-5a36e4cd65e8",
+          "title": "Create a Brand for v1 endpoint",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a brand",
+              "fullTitle": "Create a Brand for v1 endpoint Create a brand",
+              "timedOut": null,
+              "duration": 3100,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('@brand').then(brand => {\n  cy.createBrand(brand);\n});",
+              "err": {},
+              "uuid": "94eaf906-363d-4bf4-b11d-cd23ca151138",
+              "parentUUID": "a8828ffd-6c8c-4a00-a02c-5a36e4cd65e8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "94eaf906-363d-4bf4-b11d-cd23ca151138"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3100,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "b42249e9-c73f-458a-af8a-dd2b46cbe117",
+      "title": "",
+      "fullFile": "cypress/integration/location/create_location.spec.js",
+      "file": "cypress/integration/location/create_location.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d72bb64e-b6d9-44b5-a3c7-3430cd9d6eb1",
+          "title": "Create a Location for v1 endpoint",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a location",
+              "fullTitle": "Create a Location for v1 endpoint Create a location",
+              "timedOut": null,
+              "duration": 2961,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('@location').then(function (location) {\n  cy.createLocation(this.program.id, location);\n});",
+              "err": {},
+              "uuid": "2578153f-7b49-4e28-a7c8-2033791bed97",
+              "parentUUID": "d72bb64e-b6d9-44b5-a3c7-3430cd9d6eb1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2578153f-7b49-4e28-a7c8-2033791bed97"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2961,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d3e39a2e-7c49-4a5a-88ae-dd58de0788fc",
+      "title": "",
+      "fullFile": "cypress/integration/program/create_program.spec.js",
+      "file": "cypress/integration/program/create_program.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b0acdd32-8e4d-4b0e-8e9c-f4a9be48b13c",
+          "title": "Create a Program for v1 endpoint",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a program",
+              "fullTitle": "Create a Program for v1 endpoint Create a program",
+              "timedOut": null,
+              "duration": 998,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('@program').then(program => {\n  cy.createProgram(program);\n});",
+              "err": {},
+              "uuid": "bcb6128f-fcc4-40ad-b374-b14f4c714d54",
+              "parentUUID": "b0acdd32-8e4d-4b0e-8e9c-f4a9be48b13c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bcb6128f-fcc4-40ad-b374-b14f4c714d54"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 998,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "cdn": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

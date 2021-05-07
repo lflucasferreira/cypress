@@ -1,0 +1,22 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "Fidel Challenge: Part 2 - API Test",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "rm -rf cypress/reports/ && cypress run --reporter mochawesome --record --key e88e6240-e220-438c-8692-08c21fc3e12b && npx mochawesome-merge cypress/reports/*.json > cypress/reports/output.json && npx marge cypress/reports/output.json --reportDir cypress/reports/ --inline"
+  },
+  "keywords": [],
+  "author": "Lucas Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.1.0",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}

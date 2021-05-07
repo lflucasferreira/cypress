@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-19T01:43:24.702Z",
+    "end": "2021-04-19T01:43:27.695Z",
+    "duration": 2993,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b42249e9-c73f-458a-af8a-dd2b46cbe117",
+      "title": "",
+      "fullFile": "cypress/integration/location/create_location.spec.js",
+      "file": "cypress/integration/location/create_location.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d72bb64e-b6d9-44b5-a3c7-3430cd9d6eb1",
+          "title": "Create a Location for v1 endpoint",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a location",
+              "fullTitle": "Create a Location for v1 endpoint Create a location",
+              "timedOut": null,
+              "duration": 2961,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('@location').then(function (location) {\n  cy.createLocation(this.program.id, location);\n});",
+              "err": {},
+              "uuid": "2578153f-7b49-4e28-a7c8-2033791bed97",
+              "parentUUID": "d72bb64e-b6d9-44b5-a3c7-3430cd9d6eb1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2578153f-7b49-4e28-a7c8-2033791bed97"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2961,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "cdn": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

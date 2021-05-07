@@ -1,0 +1,9 @@
+{
+	"name": "QA Challenge",
+	"icon": ":rocket:",
+	"iconBackground": "#BADA55",
+	"metadata": {
+		"customKey1": "Quality Assurance",
+		"customKey2": "Fidel API"
+	}
+}

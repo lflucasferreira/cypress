@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-19T01:43:34.042Z",
+    "end": "2021-04-19T01:43:35.063Z",
+    "duration": 1021,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d3e39a2e-7c49-4a5a-88ae-dd58de0788fc",
+      "title": "",
+      "fullFile": "cypress/integration/program/create_program.spec.js",
+      "file": "cypress/integration/program/create_program.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b0acdd32-8e4d-4b0e-8e9c-f4a9be48b13c",
+          "title": "Create a Program for v1 endpoint",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a program",
+              "fullTitle": "Create a Program for v1 endpoint Create a program",
+              "timedOut": null,
+              "duration": 998,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('@program').then(program => {\n  cy.createProgram(program);\n});",
+              "err": {},
+              "uuid": "bcb6128f-fcc4-40ad-b374-b14f4c714d54",
+              "parentUUID": "b0acdd32-8e4d-4b0e-8e9c-f4a9be48b13c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bcb6128f-fcc4-40ad-b374-b14f4c714d54"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 998,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "cdn": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

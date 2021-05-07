@@ -1,0 +1,23 @@
+{
+  "address": "93494 Ella Fields",
+  "city": "Arielmouth",
+  "countryCode": "GBR",
+  "postcode": "43041-3727",
+  "metadata": {
+    "customKey1": "customValue1",
+    "customKey2": "customValue2"
+  },
+  "searchBy": {
+    "merchantIds": {
+      "visa": [
+        "1234567",
+        "7654321"
+      ],
+      "mastercard": [
+        "1234567",
+        "7654321"
+      ]
+    }
+  },
+  "brandId": "68498124-403e-48af-8296-b76015c21ddc"
+}

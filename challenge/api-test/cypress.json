@@ -1,0 +1,20 @@
+{
+	"baseUrl": "https://api.fidel.uk/v1",
+	"watchForFileChanges": false,
+	"video": false,
+	"env": {
+		"fidel_key": "sk_test_d7e64c41-f1b9-4514-806e-c699556515d8"
+	},
+	"reporter": "mochawesome",
+	"reporterOptions": {
+		"charts": true,
+		"html": false,
+		"json": true,
+		"reportDir": "cypress/reports",
+		"reportFilename": "report",
+		"overwrite": false,
+		"cdn": true,
+		"timestamp": "mmddyyyy_HHMMss"
+	},
+	"projectId": "194kbc"
+}
